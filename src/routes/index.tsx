@@ -1,5 +1,5 @@
-import { component$ } from "@builder.io/qwik";
-import type { DocumentHead } from "@builder.io/qwik-city";
+import { component$ } from '@builder.io/qwik';
+import type { DocumentHead } from '@builder.io/qwik-city';
 
 export default component$(() => {
 	return (
@@ -18,12 +18,12 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-	title: "Portfolio",
+	title: 'Portfolio',
 	meta: [
 		{
-			name: "Developer Portfolio - [Your Name]",
+			name: 'Developer Portfolio - [Your Name]',
 			content:
-				"A portfolio showcasing the projects, skills, and experience of [Your Name], a software developer.",
+				'A portfolio showcasing the projects, skills, and experience of [Your Name], a software developer.',
 		},
 	],
 };

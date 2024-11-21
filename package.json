@@ -1,7 +1,12 @@
 {
-  "name": "my-qwik-basic-starter",
-  "description": "Demo app with sample routes",
+  "name": "dev-page",
+  "description": "A portfolio showcasing the projects, skills, and experience of [Your Name], a software developer.",
+  "keywords": [
+    "qwik",
+    "portfolio"
+  ],
   "engines": {
+    "bun": "^1.1.34",
     "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
   },
   "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",

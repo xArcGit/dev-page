@@ -4,6 +4,7 @@ import type { RequestHandler } from "@builder.io/qwik-city";
 
 export const onGet: RequestHandler = async ({ cacheControl }) => {
 	cacheControl({
+		public: false,
 		staleWhileRevalidate: 60 * 60 * 24 * 7,
 		maxAge: 5,
 	});

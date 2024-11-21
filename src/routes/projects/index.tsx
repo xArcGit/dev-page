@@ -1,13 +1,9 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
 
-import Hero from "../components/starter/hero/hero";
-
 export default component$(() => {
 	return (
 		<>
-			<Hero />
-
 			<div role="presentation" class="ellipsis" />
 			<div role="presentation" class="ellipsis ellipsis-purple" />
 
@@ -22,12 +18,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-	title: "Portfolio",
+	title: "Project",
 	meta: [
 		{
-			name: "Developer Portfolio - [Your Name]",
-			content:
-				"A portfolio showcasing the projects, skills, and experience of [Your Name], a software developer.",
+			name: "",
+			content: "",
 		},
 	],
 };

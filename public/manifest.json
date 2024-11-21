@@ -9,12 +9,12 @@
   "description": "A portfolio showcasing the projects, skills, and experience of [Your Name], a software developer.",
   "icons": [
     {
-      "src": "/assets/icons/icon-192x192.png",
+      "src": "/public/icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/assets/icons/icon-512x512.png",
+      "src": "/public/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
     }

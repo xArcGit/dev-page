@@ -3,7 +3,10 @@
   "description": "A portfolio showcasing the projects, skills, and experience of [Your Name], a software developer.",
   "keywords": [
     "qwik",
-    "portfolio"
+    "portfolio",
+    "vite",
+    "tailwindcss",
+    "biome"
   ],
   "engines": {
     "bun": "^1.1.34",
@@ -24,7 +27,7 @@
     "build.types": "tsc --incremental --noEmit",
     "deploy": "echo 'Run \"npm run qwik add\" to install a server adapter'",
     "dev": "vite --mode ssr",
-    "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
+    "dev.debug": "bun --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
     "lint": "bunx lint-staged",
     "preview": "qwik build preview && vite preview --open",
     "start": "vite --open --mode ssr",
@@ -33,6 +36,7 @@
   "devDependencies": {
     "@builder.io/qwik": "^1.10.0",
     "@builder.io/qwik-city": "^1.10.0",
+    "@types/bun": "^1.1.13",
     "@types/node": "20.14.11",
     "autoprefixer": "^10.4.20",
     "lint-staged": "^15.2.10",
